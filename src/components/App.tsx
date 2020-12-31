@@ -14,7 +14,7 @@ export const App = () => {
         <Route exact path="/" component={Home} />
         <Route exact path="/Charts" component={Charts} />
         <Route exact path="/Search" component={Search} />
-        <Route component={Home} />
+        <Route component={Error} />
       </Switch>
     </>
   );
