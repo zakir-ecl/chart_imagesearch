@@ -11,10 +11,10 @@ export const App = () => {
     <>
       <Menu />
       <Switch>
-        <Route  path="/" component={Home} />
+        <Route exact path="/" component={Home} />
         <Route exact path="/Charts" component={Charts} />
         <Route exact path="/Search" component={Search} />
-        <Route component={Error} />
+        <Route component={Home} />
       </Switch>
     </>
   );
